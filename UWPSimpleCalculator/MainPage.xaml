@@ -6,13 +6,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="270" Width="300">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="342" Width="300">
 
     <Grid Margin="0,10,10,10">
         <Button x:Name="btn_Add" Content="+" Margin="51,115,0,0" VerticalAlignment="Top" Click="btn_Add_Click" Width="46"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="51,41,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="51,78,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="51,189,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="51,232,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" IsReadOnly="True"/>
         <Button x:Name="btn_Sub" Content="-" Margin="102,115,0,0" Click="btn_Sub_Click" VerticalAlignment="Top" Width="46"/>
         <Button x:Name="btn_Mult" Content="*" Margin="153,115,0,0" Click="btn_Mult_Click" VerticalAlignment="Top" Width="46"/>
         <Button x:Name="btn_Div" Content="/" Margin="204,115,0,0" VerticalAlignment="Top" Click="btn_Div_Click" Width="46"/>
@@ -20,6 +20,12 @@
         <Button x:Name="btn_Sqrt" Content="√" Margin="102,152,0,0" Click="btn_Sqrt_Click" VerticalAlignment="Top" Width="46"/>
         <Button x:Name="btn_Pow" Content="Pow" Click="btn_Pow_Click" Margin="153,152,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btn_Exp" Content="Exp" Margin="204,152,0,0" Click="btn_Exp_Click" Width="46" VerticalAlignment="Top"/>
+        <Button x:Name="btn_Fact" Content="X!" Margin="51,189,0,0" VerticalAlignment="Top" Width="46" Click="btn_Fact_Click"/>
+        <Button x:Name="btn_Cos" Content="Cos" Margin="153,189,0,0" VerticalAlignment="Top" Width="46" Click="btn_Cos_Click"/>
+        <Button x:Name="btn_Sin" Content="Sin" Margin="102,189,0,0" VerticalAlignment="Top" Width="46" Click="btn_Sin_Click"/>
+        <Button x:Name="btn_Tan" Content="Tan" Margin="204,189,0,0" VerticalAlignment="Top" Width="46" Click="btn_Tan_Click"/>
+        <Button x:Name="btn_Clean" Content="Clean" Margin="51,269,0,0" VerticalAlignment="Top" Width="97" Click="btn_Clean_Click"/>
+        <Button x:Name="btn_Exit" Content="Exit" Margin="153,269,0,0" VerticalAlignment="Top" Width="97" Click="btn_Exit_Click"/>
 
     </Grid>
 </Page>
